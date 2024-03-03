@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    padding: 20px 10%;
+    background: #eee;
+    color: #444;
+}
+
+.main{
+    border: 0.001rem solid #cecece;
+    padding: 20px;
+
+
+    .banner{
+        margin-bottom: 40px;
+
+        .fret{
+            width: 100%;
+        }
+    }
+    
+
+    .head-text{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .tuners{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+       padding-bottom: 100px;
+        border-bottom: 0.001rem solid #cecece;
+
+        .tuner{
+            padding: 30px;
+            font-size: 50px;
+            font-weight: 700;
+            color: #fff;
+            border-radius: 49% 51% 19% 81% / 31% 31% 69% 69% ;
+            cursor: pointer;
+            position: relative;
+
+            span{
+                position: absolute;
+                top: 10px;
+                left: 30px;
+                font-size: 20px;
+            }
+
+            span:nth-child(2){
+                display: none;
+            }
+        }
+    
+        .tuner:nth-child(1){
+            background: #0047AB;
+        }
+    
+        .tuner:nth-child(2){
+            background: #006400;
+        }
+    
+        .tuner:nth-child(3){
+            background: #8B0000;
+        }
+    
+        .tuner:nth-child(4){
+            background: #4B0082;
+        }
+    
+        .tuner:nth-child(5){
+            background: #FF8C00;
+        }
+    
+        .tuner:nth-child(6){
+            background: #008080;
+        }
+    }
+
+    .blogs{
+
+        .blog{
+            margin-bottom: 40px;
+
+            h2{
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+    
+            p{
+                font-size: 18px;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+        }
+        .blog:nth-child(1){
+            margin-top: 30px;
+        }
+        
+    }
+
+
+}
